@@ -24,5 +24,25 @@ public class Main {
             System.out.print(arbitraryArray[i]+"; ");
         }
         System.out.println(arbitraryArray[arbitraryArray.length-1]);
+
+        System.out.println("____________________________");
+
+        // задача 3 домашки по массивам, часть1
+
+        for (int i=2; i>0; i--) {
+            System.out.print(integers[i]+"; ");
+        }
+        System.out.println(integers[0]);
+
+        for (int i=fractionalNumbers.length-1; i>0; i--) {
+            System.out.print(fractionalNumbers[i]+"; ");
+        }
+        System.out.println(fractionalNumbers[0]);
+
+        for (int i=(arbitraryArray.length-1); i>0; i--) {
+            System.out.print(arbitraryArray[i]+"; ");
+        }
+        System.out.println(arbitraryArray[0]);
+
     }
 }
